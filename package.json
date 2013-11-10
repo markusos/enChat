@@ -1,6 +1,6 @@
 {
-  "name": "node-chattroom",
-  "description": "A simple chattroom made with node.js",
+  "name": "enChat",
+  "description": "A simple chat-room made with node.js",
   "version": "0.0.1",
   "private": true,
   "scripts": {

@@ -1,5 +1,5 @@
 var socket;
-var serverHostName = '85.227.247.169'; //	http://localhost';
+var serverHostName = 'http://localhost';
 var user;
 var mid = 0;
 var lastMessage = null;
