@@ -1,0 +1,119 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #ccc;
+  height: 100%;
+  width: 100%;
+}
+input {
+  width: 170px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 3px;
+}
+input[type=submit] {
+  width: 184px;
+}
+a {
+  color: #fff;
+}
+#login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+}
+.error {
+  border: solid 2px #f00;
+}
+#chatt {
+  position: relative;
+  height: 100%;
+  left: 0;
+  right: 0;
+  display: none;
+}
+#messages {
+  position: absolute;
+  top: 0px;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  background-color: #ccc;
+}
+#footer {
+  position: absolute;
+  bottom: 0px;
+  height: 50px;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+#message {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 5px;
+  width: -moz-calc(100% - 150px);
+  width: -webkit-calc(100% - 150px);
+  width: calc(100% - 150px);
+}
+#send {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 5px;
+  width: 100px;
+}
+.message {
+  background-color: #104e8b;
+  color: #fff;
+  width: 75%;
+  border-radius: 15px;
+  word-wrap: break-word;
+  padding-bottom: 10px;
+}
+.myMessage {
+  float: right;
+  background-color: #228b22;
+}
+.serverMessage {
+  width: 100%;
+  background-color: #cdad00;
+}
+.messageContainer {
+  display: block;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: 20px;
+}
+.messageInfo {
+  padding: 10px;
+  overflow: hidden;
+}
+.messageInfoImage {
+  margin: 5px;
+  float: left;
+}
+.messageInfoName {
+  margin: 5px;
+  float: left;
+}
+.messageInfoTime {
+  margin: 5px;
+  float: right;
+}
+.messageText {
+  padding-left: 10px;
+  padding-right: 10px;
+}

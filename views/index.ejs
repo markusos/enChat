@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title><%= title %></title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="/javascripts/script.js"></script>
+    </head>
+    <body>
+        <div id="login">
+            <h1><%= title %></h1>
+            <form id="loginForm" > 
+                <input id="username" placeholder="Username" autocomplete="off">
+                <input id="room" placeholder="Room" autocomplete="off">
+                <input id="join" type="submit" value="Join">
+            </form>
+        </div>
+
+        <div id="chatt">
+            <div id="messages"></div>
+            <div id="footer">
+                <form id="messageForm"> 
+                    <input id="message" autocomplete="off" >
+                    <input id="send" type="submit" value="Send">
+                 </form>
+            </div>
+        </div>
+    </body>
+</html>
